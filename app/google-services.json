@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "536259430866",
+    "firebase_url": "https://arby-trips.firebaseio.com",
+    "project_id": "arby-trips",
+    "storage_bucket": "arby-trips.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536259430866:android:c5a2a748ec03c31470e00b",
+        "android_client_info": {
+          "package_name": "com.arbytek.trips"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "536259430866-k31q0nhbcqn3irt4ot1jm01906ppq11l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arbytek.trips",
+            "certificate_hash": "bd88fb78bb825a9dfdb78da4ec83ea8b72b9494b"
+          }
+        },
+        {
+          "client_id": "536259430866-h3mk45fv3mjdbu3bjs0tnekt96ieia34.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlgIHhqKdwJJ-yL29wlhIfbKH9wP4N5Gk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "536259430866-h3mk45fv3mjdbu3bjs0tnekt96ieia34.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

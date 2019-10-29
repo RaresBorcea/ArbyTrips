@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TripDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/size_160dp"
+            android:layout_height="@dimen/size_160dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/size_48dp"
+            app:srcCompat="@drawable/about_me"
+            android:contentDescription="@string/author_profile_picture" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/size_32dp"
+            android:text="@string/author_name"
+            android:textAppearance="@android:style/TextAppearance.Material.Large"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/size_4dp"
+            android:text="@string/company_name"
+            android:textAppearance="@android:style/TextAppearance.Material.Large" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/size_48dp"
+            android:gravity="center"
+            android:text="@string/thank_you_message"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium"
+            android:textStyle="italic|bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="@dimen/size_48dp"
+            android:layout_marginTop="@dimen/size_32dp"
+            android:layout_marginEnd="@dimen/size_48dp"
+            android:gravity="center"
+            android:text="@string/about_me_description"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+    </LinearLayout>
+
+</ScrollView>

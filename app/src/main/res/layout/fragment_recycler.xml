@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.arbytek.trips.ContextMenuRecyclerView
+        android:id="@+id/recyclerview_trips"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingTop="@dimen/size_8dp"
+        android:paddingBottom="@dimen/size_72dp" />
+
+    <LinearLayout
+        android:id="@+id/layout_allempty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".5"
+            android:gravity="bottom"
+            android:paddingBottom="@dimen/size_16dp"
+            android:text="@string/let_s_plan_some_trips"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/size_48dp"
+            android:layout_weight=".5"
+            android:gravity="top"
+            android:text="@string/select_the_button_to_start"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/darker_gray"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_favempty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".5"
+            android:gravity="bottom"
+            android:paddingBottom="@dimen/size_16dp"
+            android:text="@string/let_s_discover_your_favourites"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/size_48dp"
+            android:layout_weight=".5"
+            android:gravity="top"
+            android:text="@string/check_the_heart_button_on_any_trip"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/darker_gray"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+
+</FrameLayout>
