@@ -9,4 +9,4 @@ At Sign-In, app queries Firestore for user’s trips and displays them in Recycl
 <img src="https://imgur.com/DZolsaz.png" width="200">  <img src="https://imgur.com/Y2cNd7N.png" width="200">
 <img src="https://imgur.com/ZOsTFJe.png" width="200">  <img src="https://imgur.com/9v1O1KE.png" width="200"> 
 <img src="https://imgur.com/BJpsKro.png" width="200">  <img src="https://imgur.com/SRjXud0.png" width="200"> 
-<img src="https://imgur.com/571hUqI.png" width="400"> 
+<img src="https://imgur.com/571hUqI.png" width="500"> 
